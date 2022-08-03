@@ -185,8 +185,8 @@
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="2_8_22.txt" />
-    <Text Include="3_8_22.txt" />
+    <Text Include="Legacy\Backups\2_8_22.txt" />
+    <Text Include="Legacy\Backups\3_8_22.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
