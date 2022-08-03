@@ -1,5 +1,5 @@
 # Override3D
-Override3D is a 3D rendering engine I'm in the process of creating, as of now it simply exists as a decent enough foundation and boilerplate (It is in no way perfect nor is it up to acceptable standards as of yet, it's a naive implementation for my own experimentation and learning). Gradually, it would become my sandbox of sorts to implement and learn more advanced graphical techniques, such as **PBR, volumetrics etc.**
+Override3D is a 3D rendering engine I'm in the process of creating, as of now it simply exists as a decent enough foundation and boilerplate (That being said, this is a **hobby project for my own experimentation and learning**, the implementation is really naive but I'm pretty proud of it). Gradually, it would become my sandbox of sorts to implement and learn more advanced graphical techniques, such as **PBR, volumetrics etc.**
 
 ![Override Demo Scene](demo1.png)
 
