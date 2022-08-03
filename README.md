@@ -5,7 +5,8 @@ A common theme in Override's codebase is the abundance of inheritance and virtua
 
 In its current state, the default shaders are pretty limited, mostly due to the fact that I haven't really focused my energy on the GPU side as of now, instead focusing on creating a decent, and expansible boiler plate.
 
-#Feature List
+Feature List (complete:base-functionality)
+------
 *Flexible rendering pipeline, A single Renderer class draws something called a Renderable, which is a container that has a Mesh, Maerial and a Transform.
 *The Mesh component must be provided a vector of "Vertex" 's, a struct that defines a single vertex. The Material classes can be provided with textures, shaders, etc. The Textures can also be configured (filtering, mipmapping etc)
 *Capable of loading various model types (OBJ, GLTF, ETC) using Assimp.
