@@ -1,2 +1,4 @@
 # Override3D
-Rendering Engine/Library
+Override3D is a simple 3D rendering engine I'm in the process of creating, as of now it simply exists as a decent enough foundation and boilerplate (I may yet still refactor this a bunch more). Gradually, it would become a sandbox of sorts to implement and test out more advanced graphical techniques, such as PBR, volumetrics etc.
+
+In its current state, it's a fully functioning 3D renderer, capable of loading different types of models (Wavefront, GLTF) via Assimp. The renderer has been thought out in a way to make adding new features easier. For example, the entire engine is object oriented, and a clear hierarchy has been established, base classes of all major components are done - CVerexBuffer, CMesh, CMaterial, CRenderable and so on. This would  enable me to simply derive from this "Common" code bases and create speciality objects such as AVertexBuffer (Animated Vertex Buffer), UIRenderable (A renderable that is used exclusively as a UI flat quad) and so on.
