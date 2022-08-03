@@ -1,4 +1,21 @@
 # Override3D
 Override3D is a simple 3D rendering engine I'm in the process of creating, as of now it simply exists as a decent enough foundation and boilerplate (I may yet still refactor this a bunch more). Gradually, it would become a sandbox of sorts to implement and test out more advanced graphical techniques, such as PBR, volumetrics etc.
 
-In its current state, it's a fully functioning 3D renderer, capable of loading different types of models (Wavefront, GLTF) via Assimp. The renderer has been thought out in a way to make adding new features easier. For example, the entire engine is object oriented, and a clear hierarchy has been established, base classes of all major components are done - CVerexBuffer, CMesh, CMaterial, CRenderable and so on. This would  enable me to simply derive from this "Common" code bases and create speciality objects such as AVertexBuffer (Animated Vertex Buffer), UIRenderable (A renderable that is used exclusively as a UI flat quad) and so on.
+A common theme in Override's codebase is the abundance of inheritance and virtualisation, so as to allow room for expansion, modifcation and specialised objects. Initially I had planned to have a bunch of interfaces which would provide a common template for every single class in the engine, but that proved to be superfluous and cumbersome, instead I went the regular inheritance route, having 'C' objects (aka COMMON OBJECTS : CVerexBuffer, CMesh, CMaterial, CRenderable and so on.) that would contain alot of the resuable and vital code. We can now derive from these classes and create specialty objects to suit our needs : [AVertexBuffer (Animated Vertex Buffer), UIRenderable (A renderable that is used exclusively as a UI flat quad) and so on.]
+
+In its current state, the default shaders are pretty limited, mostly due to the fact that I haven't really focused my energy on the GPU side as of now, instead focusing on creating a decent, and expansible boiler plate.
+
+#Feature List
+*Flexible rendering pipeline, A single Renderer class draws something called a Renderable, which is a container that has a Mesh, Maerial and a Transform.
+*The Mesh component must be provided a vector of "Vertex" 's, a struct that defines a single vertex. The Material classes can be provided with textures, shaders, etc. The Textures can also be configured (filtering, mipmapping etc)
+*Capable of loading various model types (OBJ, GLTF, ETC) using Assimp.
+*Simple Parenting system using Transforms
+*Simple Scene System
+
+
+#TODO List
+*Adding light nodes, and lighting (along with better shaders)
+*Blending and transparency
+*Re-writing the Model Loader to be more reliable
+
+
