@@ -1,0 +1,13 @@
+C:/Users/Hp/source/repos/Real Time Renderer/External/assimp/BUILD/CMakeFiles/uninstall.dir
+C:/Users/Hp/source/repos/Real Time Renderer/External/assimp/BUILD/CMakeFiles/UpdateAssimpLibsDebugSymbolsAndDLLs.dir
+C:/Users/Hp/source/repos/Real Time Renderer/External/assimp/BUILD/CMakeFiles/INSTALL.dir
+C:/Users/Hp/source/repos/Real Time Renderer/External/assimp/BUILD/CMakeFiles/ALL_BUILD.dir
+C:/Users/Hp/source/repos/Real Time Renderer/External/assimp/BUILD/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Hp/source/repos/Real Time Renderer/External/assimp/BUILD/contrib/zlib/CMakeFiles/zlibstatic.dir
+C:/Users/Hp/source/repos/Real Time Renderer/External/assimp/BUILD/contrib/zlib/CMakeFiles/INSTALL.dir
+C:/Users/Hp/source/repos/Real Time Renderer/External/assimp/BUILD/contrib/zlib/CMakeFiles/ALL_BUILD.dir
+C:/Users/Hp/source/repos/Real Time Renderer/External/assimp/BUILD/code/CMakeFiles/assimp.dir
+C:/Users/Hp/source/repos/Real Time Renderer/External/assimp/BUILD/code/CMakeFiles/INSTALL.dir
+C:/Users/Hp/source/repos/Real Time Renderer/External/assimp/BUILD/test/CMakeFiles/unit.dir
+C:/Users/Hp/source/repos/Real Time Renderer/External/assimp/BUILD/test/CMakeFiles/INSTALL.dir
+C:/Users/Hp/source/repos/Real Time Renderer/External/assimp/BUILD/test/headercheck/CMakeFiles/INSTALL.dir
