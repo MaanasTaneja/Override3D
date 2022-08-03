@@ -7,7 +7,7 @@ In its current state, the default shaders are pretty limited, mostly due to the 
 
 Feature List 
 ------
--Flexible rendering pipeline, A single Renderer class draws something called a Renderable, which is a container that has a Mesh, Maerial and a Transform.
+-Flexible rendering pipeline, A single Renderer class draws something called a Renderable, which is a container that has a
 
 
 
