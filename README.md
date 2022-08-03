@@ -9,8 +9,8 @@ In its current state, the default shaders are pretty limited, mostly due to the 
 
 Feature List 
 ------
-* Flexible rendering pipeline, A single Renderer class draws something called a Renderable, which is a container that has a Mesh, Maerial and a Transform.
-* The Mesh component must be provided a vector of "Vertex" 's, a struct that defines a single vertex. The Material classes can be provided with textures, shaders, etc.The Textures can also be configured (filtering, mipmapping etc)
+* Flexible rendering pipeline, A single Renderer class draws something called a Renderable, which is a container that has a Mesh, Material and a Transform.
+* The Mesh component must be provided a vector of "Vertex" 's, a struct that defines a single vertex. The Material class can be provided with textures, shaders, etc.The Textures can also be configured (filtering, mipmapping etc)
 * Capable of loading various model types (OBJ, GLTF, ETC) using Assimp.
 * Simple Parenting system using Transforms
 * Simple Scene System
